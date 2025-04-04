@@ -6,10 +6,10 @@ edition = "2024"
 [dependencies]
 criterion = "0.5.1"
 
-diffsol = { git = "https://github.com/martinjrobins/diffsol.git", tag = "v0.5.3" }
-diffsol_old = { git = "https://github.com/martinjrobins/diffsol.git", tag = "v0.3.0", package = "diffsol" }
-nalgebra = "0.33.2"
+pharmsol_053 = { version = "=0.7.9-rc1", package = "pharmsol" }
+pharmsol_030 = { version = "=0.7.9-rc2", package = "pharmsol" }
+
 
 [[bench]]
-name = "diffsol"
+name = "pmcore"
 harness = false
